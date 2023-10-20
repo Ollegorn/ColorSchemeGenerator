@@ -1,0 +1,47 @@
+body{
+  background-color: #1F2937;
+  color: white;
+}
+
+.bar div {
+  background-color: #f55a5a;
+  width: 51px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+.bar{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.color-picker{
+  height: 52px;
+}
+
+#color-schemes{
+   background-color: #1F293A;
+   border: 1px solid #D1D5DB;
+   border-radius: 5px;
+   color: #D1D5DB;
+   padding: 10px;
+  font-size: 20px;
+}
+
+button{
+  color: white;
+  background-color: #3D4B60;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#pallete{
+  display: flex;
+  justify-content: center;
+}
